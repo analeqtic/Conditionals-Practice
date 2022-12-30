@@ -56,87 +56,8 @@ namespace elseiftest
             {
                 Console.WriteLine("Five");
             }
-           
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-            int num01 = 20;
-            int num02 = -8;
-
-            Console.Write("What is 10+10: ");
-            num01 = Convert.ToInt32(Console.ReadLine());
-
-            if (num01 == 20)
-            {
-                Console.WriteLine("Correct!");
-            }
-            else 
-            {
-                Console.WriteLine("Incorrect!");
-            }
-
-            Console.Write("What is 2-5*2: ");
-            num02 = Convert.ToInt32(Console.ReadLine());
-
-            if (num02 == -8)
-            {
-                Console.WriteLine("Correct!");
-            }
-            else
-            {
-                Console.WriteLine("Incorrect!");
-            }             
-
-
-
-
-            int age;
-            int height;
-
-            Console.Write("please input age: ");
-            age = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Please input your height (cm): ");
-            height = Convert.ToInt32(Console.ReadLine());
-
-            if (age >= 18 && height >= 160)
-            {
-                Console.WriteLine("You can enter!");
-            }
-            else
-            {
-                Console.WriteLine("You do not meet the requirements!");
-            }
-
-
-
-            Console.WriteLine("Welcome! Tickets are $5. Please insert cash:");
-
-            int cash = Convert.ToInt32(Console.ReadLine());
-
-            if (cash <5)
-            {
-                Console.WriteLine("You do not have enough");
-            }
-            else if (cash == 5)
-            {
-                Console.WriteLine("here is your ticket:");
-            }
-            else 
-            {
-                int change = cash - 5;
-                Console.WriteLine("Here is your ticket and your " + change + " dollars in change.");
-            }
-
-
-           
+               
+              
             //Wait before closing
                 Console.ReadKey();
         }
