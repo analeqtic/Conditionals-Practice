@@ -1,0 +1,31 @@
+using System;
+
+namespace elseiftest
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome! Tickets are $5. Please insert cash:");
+
+            int cash = Convert.ToInt32(Console.ReadLine());
+
+            if (cash <5)
+            {
+                Console.WriteLine("You do not have enough");
+            }
+            else if (cash == 5)
+            {
+                Console.WriteLine("here is your ticket:");
+            }
+            else 
+            {
+                int change = cash - 5;
+                Console.WriteLine("Here is your ticket and your " + change + " dollars in change.");
+            }
+           
+            //Wait before closing
+                Console.ReadKey();
+        }
+    }
+}
